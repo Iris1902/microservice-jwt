@@ -82,6 +82,6 @@ func main() {
 		w.Write([]byte("Service is up and running"))
 	})
 
-	println("Server is running on port 8080...")
+	println("Server is running on port 8081...")
 	http.ListenAndServe(":8081", nil)
 }
